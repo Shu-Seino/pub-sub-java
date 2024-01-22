@@ -6,7 +6,7 @@ mvn archetype:generate -DgroupId=com.mycompany.app -DartifactId=my-app -Darchety
 ```
 
 ### pom.xmlの編集
-PubSubの追加
+Pub/Subプラグインの追加
 ```xml
 <dependency>
     <groupId>com.google.cloud</groupId>
@@ -16,7 +16,7 @@ PubSubの追加
 ```
 ### アプリケーションの作成
 
-###　環境変数の作成
+### 環境変数の作成
 /pub-sub-java/my-app/src/main/resources/config.propertiesに以下の設定をする。
 ```
 project.id=
